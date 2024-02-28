@@ -7,7 +7,7 @@ function borrar () {
 }
 
 function calcular() {
-    const valorPantalla = ducument.getElementById('pantalla').value
-    const resultado = eval('valorPantalla')
+    const valorPantalla = document.getElementById('pantalla').value
+    const resultado = eval(valorPantalla)
     document.getElementById('pantalla').value = resultado
 }
